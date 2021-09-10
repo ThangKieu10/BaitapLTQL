@@ -7,5 +7,9 @@ namespace BaitapLTQL.Models
 {
     public class Person
     {
+        public int ID { get; set; }
+        public string PersonName { get; set; }
+        public string Address { get; set; }
+
     }
 }
